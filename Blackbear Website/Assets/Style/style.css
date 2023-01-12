@@ -1,0 +1,96 @@
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-nav li a{
+    color: #FEF700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+
+
+.bbear{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #162533;
+}
+
+.aboutbear{
+    padding-top: 6%;
+}
+
+.navbear{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #FEF700;
+}
+
+.float-right{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    float: right;
+}
+
+.float-left{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.buttonrt{
+    /*margin-left: 75%;*/
+    float: right;
+    margin-right: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background-color: #162533;
+    color: #A3C2D4;
+}
+
+.buttonrt:hover{
+    background-color: rgba(254,247,0,0.5);
+    color:#162533; 
+}
+
+.buttonlt:hover{
+    background-color: rgba(254,247,0,0.5);
+    color:#162533;
+}
+
+.buttonlt{
+    margin-left: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background-color: #162533;
+    color: #A3C2D4;
+}
+
+.card {
+    background-color: rgba(22,37,51, 0.5) !important;
+}
+
+
+body {
+    background: url('https://s1.ticketm.net/dam/a/174/fdad45db-f6cb-4fed-9b39-7d147055f174_1738251_TABLET_LANDSCAPE_3_2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+p{
+    color: #FEF700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+h2{
+    color: #FEF700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
