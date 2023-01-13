@@ -15,10 +15,15 @@
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 50px;
-    color: #162533;
+    color: #FEF700;
 }
 
 .aboutbear{
+    padding-top: 6%;
+}
+
+.slinksbear{
+    text-align: center;
     padding-top: 6%;
 }
 
@@ -28,12 +33,70 @@
     color: #FEF700;
 }
 
+
+
+.albumcol{
+    border: 1px solid #FEF700;
+    color: #FEF700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.albumcol:hover {
+    background-color: rgba(254,247,0,0.5);
+    color:#162533 !important;
+}
+
+.btnspot{
+    padding-top: 0px;
+    font-size: 30px;
+    color: #FEF700;
+}
+.slinks{
+    padding-top: 0px;
+    font-size: 50px;
+    color: #FEF700;
+}
+.moreslinks{
+    padding-top: 0px;
+    font-size: 50px;
+    color: #FEF700;
+    margin-right: 50px;
+}
+
+.galimg{
+    padding: 5px;
+    width: 100%;
+
+}
+
+.cenimg{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.albumImage{
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-right: 10px;
+}
+
 .float-right{
-    border: 1px solid #ddd;
+    border: 1px;
     border-radius: 4px;
     padding: 5px;
     width: 300px;
     float: right;
+}
+
+.imgdiv{
+    float: right;
+    margin-bottom: 30px;
+    margin-left: 30px;
 }
 
 .float-left{
@@ -74,6 +137,65 @@
     background-color: rgba(22,37,51, 0.5) !important;
 }
 
+.contact-form label{
+    display: block;
+    width: 100%;
+    color: #FEF700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cancelbtn{
+    background-color: #FEF700;
+    color: #162533
+}
+
+.sendbtn{
+    background-color: #162533;
+    color: #FEF700;
+}
+
+.sendbtn:hover{
+    background-color: rgba(254,247,0,0.5);;
+    color: #162533;
+}
+
+.cancelbtn:hover{
+    background-color: rgba(254,247,0,0.5);;
+    color: #162533;
+}
+
+.contact-form input, .contact-form textarea{
+    display: block;
+    width: 100%;
+    color: #162533;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact-form label{
+    margin-bottom: 0.5em;
+}
+
+.contactTitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FEF700;
+}
+
+.contact-forminput, .contact-form textarea{
+    border: 1px solid #003612;
+    font-family: inherit;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+.invalid{
+    border-color: red !important;
+    color: red;
+}
+
+.invalid placeholder{
+    color: red;
+}
+
 
 body {
     background: url('https://s1.ticketm.net/dam/a/174/fdad45db-f6cb-4fed-9b39-7d147055f174_1738251_TABLET_LANDSCAPE_3_2.jpg') no-repeat center center fixed;
@@ -93,4 +215,8 @@ h2{
     color: #FEF700;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
+}
+
+h4{
+    padding-top: 10px;
 }

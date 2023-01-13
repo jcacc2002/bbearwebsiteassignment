@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKBEAR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/Style/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href=”https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css”/>
+</head>
+<body>
+
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <a class="navbar-brand" href="index.html">
+                      <h1 class="text-center navbear">BLACKBEAR</h1>
+                    </a>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div id="navbarSupportedContent">
+                        <ul class="navbar-nav align-items-center mx-auto">
+                            <li class="nav-item">
+                            <a class="nav-link mx-2" href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link mx-2" href="gallery.html">GALLERY</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link mx-2" href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+<!-- Navbar -->
+
+<!-- Page Content -->
+<div class="container aboutbear">
+    <div class="card border-0 shadow my-5">
+      <div class="card-body p-5">
+        <div style="height: 35px"></div>
+
+        <form action="mailto:blackbearfan@mcast.edu.mt" method="post" class="contact-form" onsubmit="return validateForm();">
+            <div class="container">
+                <div class="row">
+                    <h4 class="contactTitle">Contact Us</h4>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="Joe">
+                    </div>
+                    <div class="col-6">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Borg">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div>
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div>
+                            <label for="message">Your Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col-6 d-grid gap-2">
+                        <button type="submit" class="btn sendbtn">Send</button>
+                    </div>
+                    <div class="col-6 d-grid gap-2">
+                        <button type="reset" class="btn cancelbtn">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="col-4">
+            <div id="errors" class="card border-danger mb-3 d-none text-danger">
+                <div class="card-header">
+                    <h4>Invalid Input</h4>
+                </div>
+                <div class="card-body text-danger">
+                    <p id="errors-content" class="card-text"></p>
+                </div>
+            </div>
+        </div>
+
+        <div style="height: 35px"></div>
+    </div>
+</div>
+</div>
+
+
+
+
+<script src="Assets/javascript/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
